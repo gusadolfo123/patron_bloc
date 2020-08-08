@@ -14,7 +14,5 @@ class LoginProvider extends InheritedWidget {
   }
 
   @override
-  bool updateShouldNotify(LoginProvider oldWidget) {
-    return true;
-  }
+  bool updateShouldNotify(LoginProvider oldWidget) => true;
 }
